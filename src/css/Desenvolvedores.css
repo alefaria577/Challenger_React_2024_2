@@ -77,16 +77,14 @@
     gap: 15px;
 }
 
-.nome_dev{
-    color:white
-}
-
 .redes_sociais_dev {
     gap: 15px;
     display: flex;
     justify-content: center;
     text-align: center;
 }
+
+
 
 .redes_sociais_dev a {
     pointer-events: auto; 

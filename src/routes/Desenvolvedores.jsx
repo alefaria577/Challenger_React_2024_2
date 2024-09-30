@@ -59,7 +59,7 @@ const Desenvolvedores = () => {
                         <div className="slide-content_dev">
                             <img src={developer.img} alt={`Desenvolvedor ${developer.name}`} />
                             <div className="info_dev">
-                                <h3 className="nome_dev">{developer.name}</h3>
+                                <h3 style={{ color: 'white' }}>{developer.name}</h3>
                                 <p>Idade: {developer.age}</p>
                                 <div className="redes_sociais_dev">
                                     <a href={developer.linkedin} target="_blank" rel="noopener noreferrer">
