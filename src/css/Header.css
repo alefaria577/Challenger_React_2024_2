@@ -1,0 +1,38 @@
+header{
+    display:flex;
+    min-height: 10vh;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    flex-grow: 1;
+    background-color: black;
+    color: white;
+    font-weight: 900; 
+}
+nav{
+    display:flex;
+    justify-content: right;
+    align-items: center;
+    flex-grow: 1;
+    gap:2vw;
+    background-color: black;
+    color: white;
+    font-weight: 900;
+    font-size: 3vh;
+}
+.login{
+    height: 6vh;
+    width: 8vw;
+    margin-right: 7vw;
+    background-color: blue;
+    color:white;
+    font-size: 2.5vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh;
+    gap:1vw;
+}

@@ -1,0 +1,26 @@
+footer{
+    display:flex;
+    min-height: 7vh;
+}
+.email, .info, .contato{
+    flex-grow: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+}
+.email{
+    gap:1vw;
+    font-size: 20px;
+}
+.contato{
+    justify-content: right;
+    display:flex;
+    gap:2vw;
+    padding-right: 100px;
+}
+.whatsapp-icon, .facebook-icon, .linkedin-icon {
+    font-size: 30px;
+}
