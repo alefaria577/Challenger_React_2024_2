@@ -4,6 +4,7 @@ import logoLogin from '../imgs_login/logo.png';
 import bgLogin1 from '../imgs_login/bg-login-1.png';
 import bgLogin2 from '../imgs_login/bg-login-2.png';
 import bgLogin3 from '../imgs_login/bg-login-3.jpg';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     const imagens = [bgLogin1, bgLogin2, bgLogin3];
@@ -38,7 +39,7 @@ const Login = () => {
                             <input className="input_login" id="senha" type='password' placeholder="Senha" autoComplete="off" required />
                         </div>
                         <div className="registro_login">
-                            <a href="./register.html">Registre-se Aqui</a>
+                            <Link to="/Register">Register</Link>
                         </div>
                         <button className="btn_entrar_login">entrar</button>
                     </div>

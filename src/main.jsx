@@ -6,6 +6,7 @@ import Sobre from './routes/Sobre.jsx'
 import Circuitos from './routes/Circuitos.jsx'
 import Desenvolvedores from './routes/Desenvolvedores.jsx'
 import Login from './routes/Login.jsx'
+import Register from './routes/Register.jsx'
 import {createBrowserRouter,RouterProvider} from 'react-router-dom'
 
 
@@ -24,6 +25,7 @@ import {createBrowserRouter,RouterProvider} from 'react-router-dom'
         {path:'/Desenvolvedores', element:<Desenvolvedores/>},
         {path:'/Login', element:<Login/>},
         {path:'/Sobre', element:<Sobre/>},
+        {path:'/Register', element:<Register/>},
       ]
   
     }

@@ -1,0 +1,68 @@
+.container_reg {
+    background-color: #ffffff;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px; /* Largura máxima do contêiner */
+    position: relative;
+    display: flex; /* Alinha itens de forma flexível */
+    flex-direction: column; /* Alinha os filhos na vertical */
+    align-items: center; /* Centraliza horizontalmente */
+    margin: 0 auto; /* Centraliza o contêiner em relação ao pai */
+    margin-top: 20px; /* Margem superior para afastar do topo */
+}
+
+.botao-voltar_reg {
+    position: absolute; /* Para mantê-lo no topo esquerdo */
+    top: 20px;
+    left: 20px;
+}
+
+.titulo_reg {
+    text-align: center; /* Centraliza o título */
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-contato_reg {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Garante que o formulário use toda a largura do contêiner */
+}
+
+.form-contato_reg label {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.form-contato_reg input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%; /* Garante que os inputs usem toda a largura do contêiner */
+    font-size: 16px;
+}
+
+.form-contato_reg button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%; /* Garante que o botão use toda a largura do contêiner */
+}
+
+.form-contato_reg button:hover {
+    background-color: #45a049;
+}
+
+.form-contato_reg input:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.2);
+}
