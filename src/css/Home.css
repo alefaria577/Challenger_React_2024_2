@@ -1,26 +1,26 @@
     main{
-    flex-grow: 1;
+    height:80vh;
     display: flex;
     background-image: url(../imagens/bg-inicio.png);
     }
-    .corpo{
+    .corpo_home{
         flex-grow: 1;
         font-size: 5vh;
         position: relative;
         color:white;
     }
-    .corpo p {
+    .corpo_home p {
         transform: translateX(12vw) translateY(25vh);
     }
     /* RESPONSIVIDADE DO TEXTO DO CORPO */
     @media (max-width: 768px) {
-        .corpo p {
+        .corpo_home p {
             transform: translateX(6vw) translateY(20vh); /* Ajuste para telas menores */
         }
     }
     
     @media (max-width: 480px) {
-        .corpo p {
+        .corpo_home p {
             transform: translateX(3vw) translateY(15vh); /* Ajuste para telas muito pequenas */
         }
     }

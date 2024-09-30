@@ -1,0 +1,90 @@
+.main_sobre{
+    min-height: 80vh;
+    flex-direction: column;
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+}
+
+
+.corpo_sobre{
+   display:flex
+}
+
+.texto_corpo_sobre{
+    display: flex;
+    width: 40%;
+    font-size: 33px;
+    text-align: left;
+    justify-content: center;
+    padding-left: 5vw;
+}
+
+.aside_sobre{
+    width: 60%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.aside_sobre img{
+    width: 55vw;
+    height: auto;
+}
+
+.texto_corpo2_sobre{
+    padding-top: 10vh;
+    color:rgb(8, 8, 146);
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto_corpo3_sobre{
+    width: 100%;
+    display: flex;
+    padding-top: 4vh;
+}
+
+.box_sobre{
+    width: 100%;
+    border: 1px solid #C0C0C0;
+    padding: 10px;           
+    font-size: 20px;    
+    
+}
+
+.box_sobre img{
+    width: 27vw;
+}
+
+h3{
+    color: rgb(8, 8, 146);
+    font-size: 32px;
+}
+.imagem-box_sobre{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.texto-box_sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    padding-left: 2vw;
+}
+
+.texto_intro_sobre{
+    display:flex;
+    height: 10vh;
+    flex-grow: 1;
+    font-size: 30px;
+    justify-content: left;
+    align-items: center;
+    padding-left: 8vw;
+    background-image: url(../imagens/backgroundTop.png);
+    color: #ffffff;
+    font-weight: 700;
+}

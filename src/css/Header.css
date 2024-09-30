@@ -1,6 +1,6 @@
 header{
     display:flex;
-    min-height: 10vh;
+    height: 10vh;
 }
 .logo{
     display: flex;

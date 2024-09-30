@@ -10,7 +10,7 @@ return (
         <main>       
         <div className="barra1"></div>
         <div className="barra2"></div> 
-            <div className="corpo">                
+            <div className="corpo_home">                
                 <p>FormulaE a corrida com carros</p>
                 <p>elétricos de alta</p>
                 <p>performance</p>
