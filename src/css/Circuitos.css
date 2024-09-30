@@ -1,0 +1,86 @@
+:root {
+    --dark-blue: #00005a;
+    --light-blue: #0054ff;
+    --cyan: #00f3ff;
+    --bg-black: #1a1a1a;
+    --white-default: #fff;
+    --linear-gradient-cyan: linear-gradient(90deg, #00005a 0%, #00f 50%, #0ff 100%);
+}
+
+.titulo_circuitos{
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    background-image: url(../imgs_circuito/main-banner.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+
+.box_c{
+    display:flex;
+    justify-content: space-between;
+    
+
+}
+
+
+.box_circuito{
+
+    height: 40vh;
+    width: 25vw;
+    border-width: 3px; 
+    border-style: solid; 
+    border-image: var(--linear-gradient-cyan) 1; 
+    margin: 80px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.box_circuito:hover{
+    transform: scale(1.1); /* Amplia o card em 10% */
+    box-shadow: 5px 5px 15px rgba(0, 0, 90, 0.5); /* Aumenta a sombra ao passar o mouse */
+}
+
+
+
+
+
+
+.titulo_box_circuito{
+    display:flex;
+    font-size: 30px;
+    justify-content: left;
+    align-items: center;
+    font-weight: 700;
+    padding: 20px 20px 0 20px;
+
+}
+
+.bandeiras_circuito{
+    margin-right: 10px;
+}
+
+.bandeiras_circuito img{
+    width: 40px;
+    height: auto;
+}
+
+.traco_circuitos{
+    height: 0.3vh;
+    width: 20vw;
+    background-image: var(--linear-gradient-cyan);
+    margin: 0 20px 0 20px;
+}
+
+.imagem_circuitos{
+    display:flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.imagem_circuitos img{
+    height: 20vh;
+}
