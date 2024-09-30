@@ -1,0 +1,99 @@
+.titulo_desenvolvedores {
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+    background-image: url(../imgs_desenvolvedor/bg-top.png);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    padding-left: 8vw;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.slideshow-container_dev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1200px; 
+    position: relative;
+}
+
+.slide_dev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    opacity: 0; 
+    transition: opacity 1s ease-in-out;
+}
+
+.slide_dev.show {
+    opacity: 1; 
+    position: relative; 
+}
+
+.slide-content_dev {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 50%; 
+    padding: 20px;
+}
+
+.slide-content_dev img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.info_dev {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 10px;
+    width: 30vw;
+    background-color: black;
+    color: white; 
+    padding: 20px; 
+    border-radius: 10px; 
+    font-size: 25px;
+    gap: 15px;
+}
+
+.nome_dev{
+    color:white
+}
+
+.redes_sociais_dev {
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.redes_sociais_dev a {
+    pointer-events: auto; 
+    z-index: 10; 
+}
+
+.fa-linkedin, .fa-github {
+    font-size: 30px;
+    margin: 10px;
+}
