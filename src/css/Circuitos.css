@@ -7,7 +7,7 @@
     --linear-gradient-cyan: linear-gradient(90deg, #00005a 0%, #00f 50%, #0ff 100%);
 }
 
-.titulo_circuitos{
+.titulo_circuitos {
     font-size: 40px;
     color: white;
     font-weight: 600;
@@ -18,69 +18,84 @@
     height: 10vh;
 }
 
-
-.box_c{
-    display:flex;
-    justify-content: space-between;
-    
-
+.box_c {
+    display: grid; /* Usando grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsividade */
+    gap: 20px; /* Espaço entre as caixas */
+    margin: 20px; /* Margem em volta da grid */
 }
 
-
-.box_circuito{
-
+.box_circuito {
     height: 40vh;
-    width: 25vw;
     border-width: 3px; 
     border-style: solid; 
     border-image: var(--linear-gradient-cyan) 1; 
-    margin: 80px;
     border-radius: 8px;
     transition: transform 0.3s ease;
+    overflow: hidden; /* Para evitar que o conteúdo saia do card */
 }
 
-.box_circuito:hover{
+.box_circuito:hover {
     transform: scale(1.1); /* Amplia o card em 10% */
     box-shadow: 5px 5px 15px rgba(0, 0, 90, 0.5); /* Aumenta a sombra ao passar o mouse */
 }
 
-
-
-
-
-
-.titulo_box_circuito{
-    display:flex;
+.titulo_box_circuito {
+    display: flex;
     font-size: 30px;
     justify-content: left;
     align-items: center;
     font-weight: 700;
     padding: 20px 20px 0 20px;
-
 }
 
-.bandeiras_circuito{
+.bandeiras_circuito {
     margin-right: 10px;
 }
 
-.bandeiras_circuito img{
+.bandeiras_circuito img {
     width: 40px;
     height: auto;
 }
 
-.traco_circuitos{
+.traco_circuitos {
     height: 0.3vh;
-    width: 20vw;
+    width: 100%; /* Usar 100% da largura do card */
     background-image: var(--linear-gradient-cyan);
-    margin: 0 20px 0 20px;
+    margin: 0 20px;
 }
 
-.imagem_circuitos{
-    display:flex;
+.imagem_circuitos {
+    display: flex;
     justify-content: center;
     padding-top: 30px;
 }
 
-.imagem_circuitos img{
+.imagem_circuitos img {
     height: 20vh;
+}
+
+/* Responsividade */
+@media (max-width: 768px) { /* Tablet */
+    .titulo_circuitos {
+        font-size: 32px; /* Reduzir tamanho da fonte */
+    }
+
+    .box_circuito {
+        height: 35vh; /* Ajustar altura */
+    }
+}
+
+@media (max-width: 480px) { /* Mobile */
+    .titulo_circuitos {
+        font-size: 28px; /* Aumentar o ajuste para telas menores */
+    }
+
+    .box_circuito {
+        height: 30vh; /* Ajustar altura */
+    }
+
+    .titulo_box_circuito {
+        font-size: 24px; /* Reduzir o tamanho da fonte */
+    }
 }
