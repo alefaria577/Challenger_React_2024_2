@@ -1,8 +1,6 @@
 
 # Participantes:
 
-=======
-<h1>Desenvolvedores 🤝</h1>
 <table>
 <tr>
 <th>Desenvolvedor</th>
