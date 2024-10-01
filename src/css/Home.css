@@ -1,68 +1,113 @@
-    main{
-    height:80vh;
+main {
+    height: 80vh;
     display: flex;
     background-image: url(../imagens/bg-inicio.png);
-    }
-    .corpo_home{
-        flex-grow: 1;
-        font-size: 5vh;
-        position: relative;
-        color:white;
-    }
-    .corpo_home p {
-        transform: translateX(12vw) translateY(25vh);
-    }
-    /* RESPONSIVIDADE DO TEXTO DO CORPO */
-    @media (max-width: 768px) {
-        .corpo_home p {
-            transform: translateX(6vw) translateY(20vh); /* Ajuste para telas menores */
-        }
+}
+
+.grid_container {
+    display: grid; /* Usando grid layout */
+    grid-template-columns: 1fr auto; /* 1 coluna flexível para .corpo_home e coluna automática para aside */
+    height: 100%; /* Altura total para o container */
+}
+
+.corpo_home {
+    flex-grow: 1;
+    font-size: 5vh;
+    position: relative;
+    color: white;
+}
+
+.corpo_home p {
+    transform: translateX(12vw) translateY(25vh);
+}
+
+/* RESPONSIVIDADE DO TEXTO DO CORPO */
+@media (max-width: 1024px) { /* Tablet */
+    .corpo_home {
+        font-size: 4.5vh; /* Reduzir um pouco o tamanho da fonte */
     }
     
-    @media (max-width: 480px) {
-        .corpo_home p {
-            transform: translateX(3vw) translateY(15vh); /* Ajuste para telas muito pequenas */
-        }
+    .corpo_home p {
+        transform: translateX(9vw) translateY(22vh); /* Ajuste para tablets */
     }
-    .saber_mais{
-        margin-top: 5vh;
-        font-size: 3vh;   
-        background-color: blue;
-        color: white;
-        width: 20vh;
-        height: 7vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    aside{
-        width: 100vh;
-        display: flex;
-        justify-content: right;
-        align-items: center;
-    }
-    aside img{
-        width: 50vw;
-        height: auto;
+}
+
+@media (max-width: 768px) { /* Mobile */
+    .corpo_home p {
+        transform: translateX(6vw) translateY(20vh); /* Ajuste para telas menores */
     }
 
-    .barra1{
-        display:flex;
-        position: absolute;
-        width: 150px;
-        height: 20px;
-        top: 180px;
-        left: 330px;
-        background-color: blue;
-        transform: rotate(-31.381deg);
+    .saber_mais {
+        font-size: 2.5vh; /* Reduzir tamanho da fonte do botão */
+        width: 15vh; /* Ajustar largura do botão */
+        height: 6vh; /* Ajustar altura do botão */
     }
-    .barra2{
-        display:flex;
-        position: absolute;
-        width: 150px;
-        height: 20px;
-        top: 370px;
-        left: 15px;
-        background-color: blue;
-        transform: rotate(-31.381deg);
+    
+    aside img {
+        width: 60vw; /* Ajustar a largura da imagem */
     }
+}
+
+@media (max-width: 480px) { /* Mobile muito pequeno */
+    .corpo_home p {
+        transform: translateX(3vw) translateY(15vh); /* Ajuste para telas muito pequenas */
+    }
+
+    .saber_mais {
+        font-size: 2vh; /* Tamanho de fonte ainda menor */
+        width: 12vh; /* Ajustar largura do botão */
+        height: 5vh; /* Ajustar altura do botão */
+    }
+
+    aside img {
+        width: 80vw; /* Ajustar a largura da imagem */
+    }
+}
+
+.saber_mais {
+    margin-top: 5vh;
+    font-size: 3vh;   
+    background-color: blue;
+    color: white;
+    width: 20vh;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    display: flex;
+    justify-content: flex-end; /* Alinhando a imagem à direita */
+    align-items: center;
+    height: 100%; /* Garante que o aside ocupe a altura total do grid */
+    margin-right: -10px; /* Empurra a imagem para mais perto da borda direita */
+}
+
+aside img {
+    width: 60vw; /* Ajustar a largura da imagem */
+    height: auto; /* Manter a proporção da imagem */
+    margin-left: 11vw;
+}
+
+.barra1 {
+    display: flex;
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    top: 180px;
+    left: 330px;
+    background-color: blue;
+    transform: rotate(-31.381deg);
+}
+
+.barra2 {
+    display: flex;
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    top: 370px;
+    left: 15px;
+    background-color: blue;
+    transform: rotate(-31.381deg);
+}
