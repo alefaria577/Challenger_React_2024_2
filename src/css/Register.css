@@ -17,12 +17,15 @@
     position: absolute; /* Para mantê-lo no topo esquerdo */
     top: 20px;
     left: 20px;
+    font-size: 16px; /* Tamanho da fonte */
+    color: #0054ff; /* Cor do link */
 }
 
 .titulo_reg {
     text-align: center; /* Centraliza o título */
     color: #333;
     margin-bottom: 20px;
+    font-size: 24px; /* Ajustar tamanho da fonte do título */
 }
 
 .form-contato_reg {
@@ -65,4 +68,34 @@
     outline: none;
     border-color: #4CAF50;
     box-shadow: 0 0 8px rgba(76, 175, 80, 0.2);
+}
+
+/* Responsividade */
+@media (max-width: 768px) { /* Tablet */
+    .titulo_reg {
+        font-size: 20px; /* Diminuir tamanho da fonte em telas menores */
+    }
+
+    .botao-voltar_reg {
+        font-size: 14px; /* Diminuir o tamanho do botão de voltar */
+    }
+}
+
+@media (max-width: 480px) { /* Mobile */
+    .container_reg {
+        padding: 20px; /* Diminuir o padding em mobile */
+    }
+
+    .titulo_reg {
+        font-size: 18px; /* Diminuir ainda mais o tamanho da fonte */
+    }
+
+    .form-contato_reg input {
+        padding: 10px; /* Diminuir o padding dos inputs */
+    }
+
+    .form-contato_reg button {
+        padding: 10px; /* Diminuir o padding do botão */
+        font-size: 14px; /* Ajustar tamanho da fonte */
+    }
 }
