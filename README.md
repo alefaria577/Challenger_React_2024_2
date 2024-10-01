@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 # Participantes:
 
+=======
+>>>>>>> 701fcaf1576c52fd1fe63d9a8daa2f5c4dbe1cd0
 <h1>Desenvolvedores 🤝</h1>
 <table>
 <tr>
