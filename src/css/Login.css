@@ -5,7 +5,6 @@
     --bg-black: #1a1a1a;
     --white-default: #fff;
     --linear-gradient: linear-gradient(73deg, #0054ff -0.65%, #00005a 99.23%);
-    --linear-gradient-cyan: linear-gradient(90deg, #00005a 0%, #00f 50%, #0ff 100%);
 }
 
 * {
@@ -37,6 +36,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative; /* Para controlar a posição do slideshow */
 }
 
 #imgbanner_login {
@@ -90,14 +90,15 @@
 
 .icon_senha_login {
     position: absolute;
-    top: 438px;
-    left: 1015px;
+    left: 80%; /* Ajustar posição para melhor responsividade */
+    top: 60px; /* Ajustar a posição vertical */
     color: var(--dark-blue);
 }
-.icon_user_login{
+
+.icon_user_login {
     position: absolute;
-    top: 378px;
-    left: 1015px;
+    left: 80%; /* Ajustar posição para melhor responsividade */
+    top: 10px; /* Ajustar a posição vertical */
     color: var(--dark-blue);
 }
 
@@ -117,6 +118,47 @@
     background: var(--bg-black);
     color: var(--white-default);
 }
-.email_login{
-    margin-top:100px;
+
+/* Margem superior no campo de email */
+.email_login {
+    margin-top: 100px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) { /* Tablet */
+    .titulo_login {
+        flex-direction: column; /* Alinhar logo e título verticalmente */
+        align-items: center; /* Centralizar */
+    }
+
+    .nome_login {
+        font-size: 50px; /* Diminuir tamanho da fonte */
+    }
+
+    .input_login {
+        width: 90%; /* Aumentar a largura em telas menores */
+    }
+
+    .btn_entrar_login {
+        width: 70%; /* Ajustar largura do botão */
+    }
+}
+
+@media (max-width: 480px) { /* Mobile */
+    .titulo_login img {
+        height: 10vh; /* Diminuir a altura da logo */
+    }
+
+    .nome_login {
+        font-size: 36px; /* Diminuir ainda mais o tamanho da fonte */
+    }
+
+    .input_login {
+        width: 95%; /* Largura total em mobile */
+    }
+
+    .btn_entrar_login {
+        height: 50px; /* Diminuir altura do botão */
+        font-size: 1.5rem; /* Ajustar tamanho da fonte */
+    }
 }
