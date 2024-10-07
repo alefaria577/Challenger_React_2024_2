@@ -20,12 +20,12 @@ import {createBrowserRouter,RouterProvider} from 'react-router-dom'
   
       //Elemento Filho
       children:[
-        {path:'/', element:<Home/>},
-        {path:'/Circuitos', element:<Circuitos/>},
-        {path:'/Desenvolvedores', element:<Desenvolvedores/>},
-        {path:'/Login', element:<Login/>},
-        {path:'/Sobre', element:<Sobre/>},
-        {path:'/Register', element:<Register/>},
+        {path:'/Challenger_web', element:<Home/>},
+        {path:'/Challenger_web/Circuitos', element:<Circuitos/>},
+        {path:'/Challenger_web/Desenvolvedores', element:<Desenvolvedores/>},
+        {path:'/Challenger_web/Login', element:<Login/>},
+        {path:'/Challenger_web/Sobre', element:<Sobre/>},
+        {path:'/Challenger_web/Register', element:<Register/>},
       ]
   
     }
