@@ -17,9 +17,30 @@ const Desenvolvedores = () => {
             linkedin: 'https://www.linkedin.com/in/alexandrefariadev/',
             github: 'https://github.com/alefaria577',
         },
-        //..
+        {
+            name: 'Evellyn',
+            age: 20,
+            img: evellyn,
+            linkedin: 'https://www.linkedin.com/in/evellyn-valencia-5b11082a5/?trk=contact-info',
+            github: 'https://github.com/evojeda',
+        },
+        {
+            name: 'Milena',
+            age: 18,
+            img: milena,
+            linkedin: 'https://www.linkedin.com/in/milena-codinhoto-da-silva-6900442b6',
+            github: 'https://github.com/MilenaCodinhoto',
+        },
+        {
+            name: 'Carolina',
+            age: 21,
+            img: carolina,
+            linkedin: 'https://www.linkedin.com/in/carolina-santana-ferraz-126554245',
+            github: 'https://github.com/Linasferraz',
+        },
     ];
 
+    
     useEffect(() => {
         const stopSlideshow = createSlideshow(setCurrentIndex, developers.length);
         return () => {
