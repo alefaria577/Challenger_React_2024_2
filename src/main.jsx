@@ -15,7 +15,7 @@ import {createBrowserRouter,RouterProvider} from 'react-router-dom'
   const router = createBrowserRouter([
     {
       //Elemento Pai
-      path:'/',element:<App/>,
+      path:'/Challenger_web',element:<App/>,
 
   
       //Elemento Filho
