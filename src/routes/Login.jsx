@@ -4,11 +4,15 @@ import logoLogin from '../imgs_login/logo.png';
 import bgLogin1 from '../imgs_login/bg-login-1.png';
 import bgLogin2 from '../imgs_login/bg-login-2.png';
 import bgLogin3 from '../imgs_login/bg-login-3.jpg';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom'; // Adicionar useNavigate
+import { handleLogin } from '../js/Login'; // Importar função handleLogin
 
 const Login = () => {
     const imagens = [bgLogin1, bgLogin2, bgLogin3];
     const [currentImage, setCurrentImage] = useState(0);
+    const [email, setEmail] = useState("");
+    const [senha, setSenha] = useState("");
+    const navigate = useNavigate(); // Inicializar useNavigate
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -16,6 +20,14 @@ const Login = () => {
         }, 3000);
         return () => clearInterval(interval);
     }, [imagens.length]);
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        const success = handleLogin(email, senha);
+        if (success) {
+            navigate("/"); // Redireciona para a página Home
+        }
+    };
 
     return (
         <div className="container">
@@ -25,23 +37,43 @@ const Login = () => {
                         <img id="imgbanner_login" src={imagens[currentImage]} alt="Slideshow Image" />
                     </div>
 
-                    <div className="formulario_login">
+                    <div className="formulario_login" onSubmit={handleSubmit}>
                         <div className="titulo_login">
                             <img src={logoLogin} alt="logo do login" />
                             <div className="nome_login">Login</div>
                         </div>
-                        <div className="email_login">
-                            <span className="icon_user_login"><i className="fa-solid fa-user"></i></span>
-                            <input className="input_login" id="email" type='text' placeholder='Email' autoComplete="off" required />
-                        </div>
-                        <div className="senha_login">
-                            <span className="icon_senha_login"><i className="fa-solid fa-lock"></i></span>
-                            <input className="input_login" id="senha" type='password' placeholder="Senha" autoComplete="off" required />
-                        </div>
+                        <form>
+                            <div className="email_login">
+                                <span className="icon_user_login"><i className="fa-solid fa-user"></i></span>
+                                <input
+                                    className="input_login"
+                                    id="email"
+                                    type="text"
+                                    placeholder="Email"
+                                    autoComplete="off"
+                                    required
+                                    value={email}
+                                    onChange={(e) => setEmail(e.target.value)}
+                                />
+                            </div>
+                            <div className="senha_login">
+                                <span className="icon_senha_login"><i className="fa-solid fa-lock"></i></span>
+                                <input
+                                    className="input_login"
+                                    id="senha"
+                                    type="password"
+                                    placeholder="Senha"
+                                    autoComplete="off"
+                                    required
+                                    value={senha}
+                                    onChange={(e) => setSenha(e.target.value)}
+                                />
+                            </div>
+                            <button className="btn_entrar_login" type="submit">Entrar</button>
+                        </form>
                         <div className="registro_login">
                             <Link to="/Register">Register</Link>
                         </div>
-                        <button className="btn_entrar_login">entrar</button>
                     </div>
                 </div>
             </main>
