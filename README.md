@@ -1,3 +1,39 @@
+<h1>Projeto Tech Mahindra - Formula E</h1>
+<p>
+
+![](src/imagens/fotoHome.png)
+
+<h1>Descrição do Projeto 📝</h1>
+
+<p> Esse é um site sobre circuitos de corrida com o foco em divulgar a Formula E </h1>
+
+<h1>Componentes Utilizados 🛠️</h1>
+<ul>
+<li>React para criar a interface</li>
+<li>Javascript para criar validação de login, cadastro e alguns efeitos na página</li>
+</ul>
+
+<h1>Explicação de como executar o código</h1>
+
+<p>Antes de começar, você precisará instalar algumas ferramentas:</p>
+
+<ul>
+  <li><b>Node.js:</b> O Node.js é necessário para rodar o projeto. Você pode baixá-lo aqui: <a href="https://nodejs.org/">Node.js</a>.</li>
+  <li><b>Git:</b> O Git é utilizado para clonar o repositório do projeto. Baixe-o aqui: <a href="https://git-scm.com/">Git</a>.</li>
+ <p>Obs: Você pode simplesmente baixar o projeto e abri-lo no VSCODE em vez de clonar </p>
+  <li><b>Visual Studio Code (VSCode):</b> Este é o editor de código que usaremos. Baixe-o aqui: <a href="https://code.visualstudio.com/">VSCode</a>.</li>
+</ul>
+
+<ol>
+  <li>Abra o VSCODE.</li>
+  <li>Abra o projeto (pode baixar pelo Github ou clonar)</li>
+  <li>Abra o Terminal. Intruções: </b> Vá até o menu e clique em <b>Terminal > New Terminal</b> ou clique em ctrl + ' </li>
+  <li>No Terminal digite npm install (para instalar as dependências)</li>
+  <li>No Terminal digite npm run dev (para executar o arquivo)</li>
+  <li>Abra o link que apareceu no navegador, deverá ser algo como http://localhost:5173/</li>
+
+</ol>
+
 
 # Participantes:
 
