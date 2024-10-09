@@ -26,14 +26,18 @@
   <li><b>Visual Studio Code (VSCode):</b> Baixe-o aqui: <a href="https://code.visualstudio.com/">VSCode</a>.</li>
 </ul>
 
+<h2>Primeiro baixe o projeto. Veja a imagem abaixo</h2>
+<p>É so clicar em "Code" e "Download ZIP"</p>
+![](src/imagens/tutorialBaixar.png)
+
 <h2>Intruções para executar o código</h2>
 <p>Siga as instruções abaixo para abrir o projeto</p>
 <ol>
-  <li>Abra o VSCODE.</li>
-  <li>Abra o projeto (pode baixar pelo Github ou clonar)</li>
-  <li>Abra o Terminal. Intruções: </b> Vá até o menu e clique em <b>Terminal > New Terminal</b> ou clique em ctrl + ' </li>
-  <li>No Terminal digite npm install (para instalar as dependências)</li>
-  <li>Agora, digite npm run dev (para executar o arquivo)</li>
+  <li>Abra o <b>VSCODE.</b></li>
+  <li>Abra a <b>pasta do projeto</b> no VSCODE clicando em "Open Folder"</li>
+  <li>Com o projeto aberto agora abra o <b>Terminal.</b> Intruções: </b> Vá até o menu e clique em <b>Terminal > New Terminal</b> ou clique em ctrl + ' </li>
+  <li>No Terminal digite <b>npm install</b> (para instalar as dependências)</li>
+  <li>Agora, digite <b>npm run dev</b> (para executar o arquivo)</li>
   <li>Abra o link que apareceu (no navegador chrome por exemplo), deverá ser algo como http://localhost:5173/</li>
 
 </ol>
