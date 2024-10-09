@@ -1,4 +1,4 @@
-<h1>Projeto Tech Mahindra - Formula E</h1>
+<h1>Projeto de corrida de carros - Formula E</h1>
 <p>
 
 ![](src/imagens/fotoHome.png)
