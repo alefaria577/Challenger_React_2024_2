@@ -29,7 +29,7 @@
 <p>É so clicar em "Code" e "Download ZIP"</p>
 <a href="src/imagens/tutorialBaixar.png" target="_blank">Clique aqui caso tenha dúvidas quanto ao download</a>
 
-<h2>Intruções para executar o código</h2>
+<h2>Agora basta executar o código</h2>
 <p>Siga as instruções abaixo para abrir o projeto</p>
 <ol>
   <li>Abra o <b>VSCODE.</b></li>
