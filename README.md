@@ -27,8 +27,7 @@
 
 <h2>Primeiro baixe o projeto. Veja a imagem abaixo</h2>
 <p>É so clicar em "Code" e "Download ZIP"</p>
-
-![tutorial](src/imagens/tutorialBaixar.png)
+<a href="src/imagens/tutorialBaixar.png" target="_blank">Clique aqui caso tenha dúvidas quanto ao download</a>
 
 <h2>Intruções para executar o código</h2>
 <p>Siga as instruções abaixo para abrir o projeto</p>
