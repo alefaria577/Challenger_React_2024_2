@@ -13,17 +13,20 @@
 <li>Javascript para criar validação de login, cadastro e alguns efeitos na página</li>
 </ul>
 
-<h1>Explicação de como executar o código</h1>
+<h1>Explicação de como abrir o projeto</h1>
 
+<h2>Requisitos</h2>
 <p>Antes de começar, você precisará instalar algumas ferramentas:</p>
 
 <ul>
   <li><b>Node.js:</b> O Node.js é necessário para rodar o projeto. Você pode baixá-lo aqui: <a href="https://nodejs.org/">Node.js</a>.</li>
   <li><b>Git:</b> O Git é utilizado para clonar o repositório do projeto. Baixe-o aqui: <a href="https://git-scm.com/">Git</a>.</li>
  <p>Obs: Você pode simplesmente baixar o projeto e abri-lo no VSCODE em vez de clonar </p>
-  <li><b>Visual Studio Code (VSCode):</b> Este é o editor de código que usaremos. Baixe-o aqui: <a href="https://code.visualstudio.com/">VSCode</a>.</li>
+  <li><b>Visual Studio Code (VSCode):</b> Baixe-o aqui: <a href="https://code.visualstudio.com/">VSCode</a>.</li>
 </ul>
 
+<h2>Intruções para executar o código</h2>
+<p>Siga as instruções abaixo para abrir o projeto</p>
 <ol>
   <li>Abra o VSCODE.</li>
   <li>Abra o projeto (pode baixar pelo Github ou clonar)</li>
