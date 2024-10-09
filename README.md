@@ -9,8 +9,8 @@
 
 <h1>Componentes Utilizados 🛠️</h1>
 <ul>
-<li>React para criar a interface</li>
-<li>Javascript para criar validação de login, cadastro e alguns efeitos na página</li>
+<li><b>React</b> para criar a interface</li>
+<li><b>Javascript</b> para criar validação de login, cadastro e alguns efeitos na página</li>
 </ul>
 
 <h1>Explicação de como abrir o projeto</h1>
