@@ -32,8 +32,8 @@
   <li>Abra o projeto (pode baixar pelo Github ou clonar)</li>
   <li>Abra o Terminal. Intruções: </b> Vá até o menu e clique em <b>Terminal > New Terminal</b> ou clique em ctrl + ' </li>
   <li>No Terminal digite npm install (para instalar as dependências)</li>
-  <li>No Terminal digite npm run dev (para executar o arquivo)</li>
-  <li>Abra o link que apareceu no navegador, deverá ser algo como http://localhost:5173/</li>
+  <li>Agora, digite npm run dev (para executar o arquivo)</li>
+  <li>Abra o link que apareceu (no navegador chrome por exemplo), deverá ser algo como http://localhost:5173/</li>
 
 </ol>
 
