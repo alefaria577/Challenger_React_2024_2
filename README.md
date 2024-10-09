@@ -9,6 +9,7 @@
 <h1>Componentes Utilizados 🛠️</h1>
 <ul>
 <li><b>React</b> para criar a interface</li>
+<li><b>Node.js</b> para instalar as dependências e executar o código</li>
 <li><b>Javascript</b> para criar validação de login, cadastro e alguns efeitos na página</li>
 </ul>
 
@@ -18,7 +19,7 @@
 <p>Antes de começar, você precisará instalar algumas ferramentas:</p>
 
 <ul>
-  <li><b>Node.js:</b> O Node.js é necessário para rodar o projeto. Você pode baixá-lo aqui: <a href="https://nodejs.org/">Node.js</a>.</li>
+  <li><b>Node.js:</b> O Node é necessário para rodar o projeto. Você pode baixá-lo aqui: <a href="https://nodejs.org/">Node.js</a>.</li>
   
   <li><p>Você pode simplesmente baixar o projeto e abrir a pasta dele no VSCODE mas, se preferir, baixe o GIT para clonar o repositório Link do git: <a href="https://git-scm.com/">Git</a>.</p></li>
  
