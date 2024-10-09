@@ -20,8 +20,9 @@
 
 <ul>
   <li><b>Node.js:</b> O Node.js é necessário para rodar o projeto. Você pode baixá-lo aqui: <a href="https://nodejs.org/">Node.js</a>.</li>
-  <li><b>Git:</b> O Git é utilizado para clonar o repositório do projeto. Baixe-o aqui: <a href="https://git-scm.com/">Git</a>.</li>
- <p>Obs: Você pode simplesmente baixar o projeto e abri-lo no VSCODE em vez de clonar </p>
+  <p>Você pode simplesmente baixar o projeto e abrir a pasta dele no VSCODE, mas se preferir, baixe o GIT para clonar o repositório </p>
+  <li>Link do git: <a href="https://git-scm.com/">Git</a>.</li>
+ 
   <li><b>Visual Studio Code (VSCode):</b> Baixe-o aqui: <a href="https://code.visualstudio.com/">VSCode</a>.</li>
 </ul>
 
