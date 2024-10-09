@@ -46,10 +46,12 @@
 <th>Icone</th>
 <th>RM</th>
 </tr>
-<tr></tr>
+<tr>
 <td>Carolina </td>
 <td><a href="https://github.com/Linasferraz"><img src="https://avatars.githubusercontent.com/u/161864076?v=4" height="50" style="max-width: 100%;"></a></td>
 <td>RM86833</td>
+</tr>
+  
 <tr>
 <td>Alexandre </td>
 <td><a href="https://github.com/alefaria577"><img src="https://avatars.githubusercontent.com/u/132949575?v=4" height="50" style="max-width: 100%;"></a></td>
