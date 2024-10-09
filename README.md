@@ -1,5 +1,4 @@
 <h1>Projeto de corrida de carros - Formula E</h1>
-<p>
 
 ![](src/imagens/fotoHome.png)
 
@@ -28,7 +27,8 @@
 
 <h2>Primeiro baixe o projeto. Veja a imagem abaixo</h2>
 <p>É so clicar em "Code" e "Download ZIP"</p>
-![](src/imagens/tutorialBaixar.png)
+
+![tutorial](src/imagens/tutorialBaixar.png)
 
 <h2>Intruções para executar o código</h2>
 <p>Siga as instruções abaixo para abrir o projeto</p>
