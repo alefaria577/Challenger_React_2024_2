@@ -4,7 +4,7 @@
 
 
 
-<p>[Acesse o projeto](https://mahindra-web.vercel.app/)</p>  
+<p><a href="https://mahindra-web.vercel.app/">Acesse o projeto</a></p>  
 
 
 <h1>Descrição do Projeto 📝</h1>
