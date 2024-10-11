@@ -4,7 +4,7 @@
 [Acesse o projeto](https://mahindra-web.vercel.app/)
 
 
-![Clique Aqui](src/imagens/fotoHome.png)
+[Acesse o projeto](https://mahindra-web.vercel.app/)
 
 <h1>Descrição do Projeto 📝</h1>
 
