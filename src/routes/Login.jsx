@@ -5,7 +5,7 @@ import bgLogin1 from '../imgs_login/bg-login-1.png';
 import bgLogin2 from '../imgs_login/bg-login-2.png';
 import bgLogin3 from '../imgs_login/bg-login-3.jpg';
 import { Link, useNavigate } from 'react-router-dom'; // Adicionar useNavigate
-import { handleLogin } from '../js/Login'; // Importar função handleLogin
+
 
 const Login = () => {
     const imagens = [bgLogin1, bgLogin2, bgLogin3];
@@ -23,6 +23,20 @@ const Login = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
+
+         // Obtém os registros do localStorage
+    const registros = JSON.parse(localStorage.getItem('registros')) || [];
+
+    // Verifica se o email e senha correspondem a algum registro
+    const usuario = registros.find(registro => registro.email === email && registro.senha === senha);
+
+    if (usuario) {
+        alert(`Bem-vindo(a), ${usuario.nome}!`);
+        return true; // Login bem-sucedido
+    } else {
+        alert('Email ou senha incorretos.');
+        return false; // Login falhou
+    }
         const success = handleLogin(email, senha);
         if (success) {
             navigate("/"); // Redireciona para a página Home
