@@ -37,10 +37,10 @@ const Login = () => {
         alert('Email ou senha incorretos.');
         return false; // Login falhou
     }
-        const success = handleLogin(email, senha);
-        if (success) {
-            navigate("/"); // Redireciona para a página Home
-        }
+        // const success = handleLogin(email, senha);
+        // if (success) {
+        //     navigate("/"); // Redireciona para a página Home
+        // }
     };
 
     return (
