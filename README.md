@@ -1,10 +1,10 @@
 <h1>Projeto de corrida de carros - Formula E</h1>
 
 <h3>Link do projeto</h3>
-[Acesse o projeto](https://mahindra-web.vercel.app/)
 
 
-<p>[Acesse o projeto](https://mahindra-web.vercel.app/)
+
+<p>![Acesse o projeto](https://mahindra-web.vercel.app/)
 </p>  
 <h1>Descrição do Projeto 📝</h1>
 
