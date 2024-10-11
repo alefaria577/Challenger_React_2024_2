@@ -4,7 +4,7 @@
 
 
 
-<p><a href="https://mahindra-web.vercel.app/" target="_blank">Acesse o projeto</a></p>  
+<p><a href="https://mahindra-web.vercel.app/" target="_blank" rel="noopener noreferrer">Acesse o projeto</a></p>  
 
 
 <h1>Descrição do Projeto 📝</h1>
