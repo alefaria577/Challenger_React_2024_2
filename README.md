@@ -6,7 +6,7 @@
 
 <h3>Link do projeto</h3>
 
-<p><a href="[https://mahindra-web.vercel.app/](https://challenger-parte1.vercel.app/)" target="_blank" rel="noopener noreferrer">Acesse o projeto</a></p>
+<p><a href="https://challenger-parte1.vercel.app/" target="_blank" rel="noopener noreferrer">Acesse o projeto</a></p>
 
 
 
