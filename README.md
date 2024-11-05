@@ -9,6 +9,11 @@
 <p><a href="https://challenger-parte1.vercel.app/" target="_blank" rel="noopener noreferrer">Acesse o projeto</a></p>
 
 
+## Instruções login
+Para acessar o login utilize:
+ - email: player@gmail.com
+ - senha: 1234
+
 
 <h1>Descrição do Projeto 📝</h1>
 
