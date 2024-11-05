@@ -1,10 +1,13 @@
 <h1>Projeto de corrida de carros - Formula E</h1>
 
+<h3>Link do projeto em REACT</h3>
+
+<p><a href="https://mahindra-web.vercel.app/" target="_blank" rel="noopener noreferrer">Acesse o projeto</a></p>
+
 <h3>Link do projeto</h3>
 
+<p><a href="[https://mahindra-web.vercel.app/](https://challenger-parte1.vercel.app/)" target="_blank" rel="noopener noreferrer">Acesse o projeto</a></p>
 
-
-<p><a href="https://mahindra-web.vercel.app/" target="_blank" rel="noopener noreferrer">Acesse o projeto</a></p>  
 
 
 <h1>Descrição do Projeto 📝</h1>
