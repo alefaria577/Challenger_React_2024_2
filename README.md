@@ -8,7 +8,7 @@
 
 <p><a href="https://challenger-parte1.vercel.app/" target="_blank" rel="noopener noreferrer">Acesse o projeto</a></p>
 
-## Apresentação Canva
+## Link da Apresentação
 
 - [Canva](https://www.canva.com/design/DAGS6r6YzDk/sQevWb7MGEKMBWhy5yzbQQ/edit)
 
